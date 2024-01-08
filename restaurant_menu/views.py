@@ -16,3 +16,7 @@ class MenuList(generic.ListView):
 class MenuItemDetail(generic.DetailView):
     model = Item
     template_name = "menu_item_detail.html"
+
+
+class About(generic.TemplateView):
+    template_name = 'about.html'
